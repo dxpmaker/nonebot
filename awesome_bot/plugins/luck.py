@@ -13,6 +13,5 @@ def Luck (QQID:int):
 
 @luck.handle()
 async def handle_function(event:Event):
-
-    await luck.finish(Luck(int(event.get_user_id)))
+    await luck.finish(Luck(int(event.get_user_id())))
     pass  # do something here
