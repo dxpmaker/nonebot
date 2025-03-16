@@ -92,7 +92,6 @@ class StarSign:
     def to_xin(self, n):
         return "★" * n + "☆" * (5 - n)
 
-
     def to_num(self, str):
         return int(self.regular(str, r"\d+")[0])
 
